@@ -92,6 +92,26 @@
             box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
         }
 
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        a:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        /* Footer Styles */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 1rem;
+            text-align: center;
+            color: white;
+            font-size: 0.9rem;
+        }
+
         /* Animations */
         @keyframes gentleAppear {
             0% { opacity: 0; transform: translateY(30px) scale(0.98); }
